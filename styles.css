@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #949BA4;
+    gap: 1rem;
+}
+
+.score {
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.jogo {
+    background-color: #248046;
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 7px black;
+    gap: 1rem;
+    z-index: 1;
+}
+
+.menu p {
+    font-size: 5rem;
+    color: red;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+}
